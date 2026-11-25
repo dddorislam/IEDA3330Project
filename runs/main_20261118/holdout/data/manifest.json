@@ -1,0 +1,14 @@
+{
+  "SPY": {
+    "sessions": 214,
+    "sha256": "59ba546fb79ad9c601a6585171b09ce40d4aed802926bf67c75203595c1fc88c"
+  },
+  "QQQ": {
+    "sessions": 214,
+    "sha256": "05683bc83cf7918e19d0f1893cfc219812d05fcad44712d0ba53543a045e0d67"
+  },
+  "IWM": {
+    "sessions": 214,
+    "sha256": "23529c433a4dbc466e22b9cb3765841d6a2b13ef1baf84cf8de2992d33fd6e0b"
+  }
+}

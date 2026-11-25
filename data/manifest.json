@@ -1,0 +1,42 @@
+{
+  "retrieved_at": "2026-11-07T09:12:30.537001+00:00",
+  "python": "3.14.7",
+  "sources": [
+    {
+      "ticker": "SPY",
+      "url": "https://finance.yahoo.com/quote/SPY/history/",
+      "file": "data\\raw\\SPY.csv",
+      "sha256": "147a988e8dc5b2b5f47294774bc037bcdd56c8aafd7e7e347a19b368fff27d07",
+      "adjustment": "Yahoo Adj Close for returns; unadjusted OHLC for within-day range",
+      "exchange_calendar": "XNYS",
+      "currency": "USD",
+      "timezone": "America/New_York"
+    },
+    {
+      "ticker": "QQQ",
+      "url": "https://finance.yahoo.com/quote/QQQ/history/",
+      "file": "data\\raw\\QQQ.csv",
+      "sha256": "d5cf8da5f9b986079aa1430e555f19d500d45fd9ddce889f4544ccee375780ed",
+      "adjustment": "Yahoo Adj Close for returns; unadjusted OHLC for within-day range",
+      "exchange_calendar": "XNYS",
+      "currency": "USD",
+      "timezone": "America/New_York"
+    },
+    {
+      "ticker": "IWM",
+      "url": "https://finance.yahoo.com/quote/IWM/history/",
+      "file": "data\\raw\\IWM.csv",
+      "sha256": "e029a3274438253d90e203e9ed0194e99f8639f0eff2910b892527b046be655b",
+      "adjustment": "Yahoo Adj Close for returns; unadjusted OHLC for within-day range",
+      "exchange_calendar": "XNYS",
+      "currency": "USD",
+      "timezone": "America/New_York"
+    }
+  ],
+  "packages": {
+    "yfinance": "1.8.0",
+    "pandas": "3.1.1",
+    "numpy": "2.5.4",
+    "exchange_calendars": "4.13.2"
+  }
+}
