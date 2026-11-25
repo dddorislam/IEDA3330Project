@@ -1,0 +1,20 @@
+{
+  "tickers": ["SPY", "QQQ", "IWM"],
+  "download_start": "2004-01-01",
+  "download_end_exclusive": "2026-01-01",
+  "train_start": "2005-01-01",
+  "folds": [["2017-01-01", "2018-12-31"], ["2019-01-01", "2020-12-31"], ["2021-01-01", "2023-12-31"]],
+  "test": ["2024-01-01", "2025-12-31"],
+  "horizons": [5, 22],
+  "lookbacks": [22, 60],
+  "hidden_units": [16, 32],
+  "dropouts": [0.0, 0.1],
+  "seeds": [17, 42, 123],
+  "max_epochs": 100,
+  "patience": 10,
+  "batch_size": 32,
+  "learning_rate": 0.001,
+  "bootstrap_blocks": [10, 20, 40],
+  "bootstrap_replicates": 2000,
+  "protocol": "Freeze before test. Select common architecture on mean validation QLIKE, seed 17; validate selected architecture at other seeds; refit each ETF for median best validation epoch per seed. Ensemble averages variance predictions. Core and no-range-volume ablation predeclared. No VIX or pooled extension."
+}
